@@ -2,13 +2,14 @@ import { useState } from 'react'
 import './App.css'
 import NavBar from './Components/NavBar/NavBar'
 import CartWidget from './Components/CartWidget/CartWidget'
+import ItemListContainer from './Components/ItemListContainer/ItemListContainer'
 function App() {
 
 
   return (
     <>
       <NavBar/>
-      <CartWidget/>
+      <ItemListContainer titulo="hola"/>
     </>
   )
 }

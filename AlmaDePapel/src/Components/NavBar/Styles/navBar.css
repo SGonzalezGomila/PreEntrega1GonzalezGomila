@@ -1,3 +1,6 @@
+.navBar{
+  background-color: rgba(255, 192, 203, 0.5);
+}
 .navBar,ul,li,a{
   list-style: none;
   text-decoration: none;
@@ -5,19 +8,33 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  color: white;
+  color: black;
   margin: 10px;
   
 }
 
-.navBar li{
-  border: 1px solid white;
-  border-radius: 10px;
-}
-.navBar li:hover{
-  background-color: yellow;
-  color: white;
-}
+
+
+
 .navBar a:hover{
   color: black;
 }
+
+ .logo{
+  margin-bottom: 50px;
+}
+
+.navBar {
+  display: flex; /* Utiliza un contenedor flexible */
+  justify-content: space-between; /* Distribuye los elementos en ambos extremos */
+  align-items: center;
+  justify-content: center; /* Centra verticalmente los elementos */
+}
+
+.navBar nav {
+  display: flex; /* Utiliza un contenedor flexible */
+  align-items: center; /* Centra verticalmente los elementos */
+}
+
+
+/* Ajusta el estilo de CartWidget según tus necesidades */

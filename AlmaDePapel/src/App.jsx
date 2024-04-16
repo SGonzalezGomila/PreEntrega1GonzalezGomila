@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavBar/>
-      <ItemListContainer titulo="hola"/>
+      <ItemListContainer titulo="ES ALMA DE PAPEL"/>
     </>
   )
 }

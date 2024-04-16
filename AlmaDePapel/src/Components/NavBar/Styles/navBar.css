@@ -1,0 +1,23 @@
+.navBar,ul,li,a{
+  list-style: none;
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: 10px;
+  
+}
+
+.navBar li{
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.navBar li:hover{
+  background-color: yellow;
+  color: white;
+}
+.navBar a:hover{
+  color: black;
+}

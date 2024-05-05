@@ -1,11 +1,13 @@
 import React from 'react'
 import carrito from './Assets/carrito.png'
 import './Css/cartWidget.css'
+
+
 const CartWidget = () => {
   return (
     <div>
-        <img src={carrito} alt=""/>
-        <p>0</p>
+      <img src={carrito} alt="" />
+      <p>0</p>
     </div>
   )
 }

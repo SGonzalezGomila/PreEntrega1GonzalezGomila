@@ -1,8 +1,9 @@
 import React from 'react'
 import useCount from '../hooks/useCount'
 import ItemCount from '../ItemCount/ItemCount';
+import './item.css'
 
-const Item = (item) => {
+const Item = ({item}) => {
     const { count, increment, decrement } = useCount(0);
     const onAdd = (nombreDelItem, cantidadaLlevar) => {
         console.log("nombreDeItem: ", nombreDelItem)

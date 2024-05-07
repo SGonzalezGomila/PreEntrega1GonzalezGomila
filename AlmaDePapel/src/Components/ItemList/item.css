@@ -1,0 +1,10 @@
+.item__img__container .item--img{
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+}
+
+.item__container, .item--title , .item--description , .item--price{
+    text-align: center;
+} 

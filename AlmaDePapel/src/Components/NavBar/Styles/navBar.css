@@ -1,5 +1,6 @@
 .navBar{
   background-color: rgba(255, 192, 203, 0.5);
+  margin-top: 250px;
 }
 .navBar,ul,li,a{
   list-style: none;
@@ -17,7 +18,7 @@
 
 
 .navBar a:hover{
-  color: black;
+  color: white;
 }
 
  .logo{

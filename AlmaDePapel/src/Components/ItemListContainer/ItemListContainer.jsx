@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react'
+import React, { useState, useEffect } from 'react'
 
 import {getProducts} from "../../Mock/AsyncMock"
 import ItemList from "../ItemList/ItemList"
-
 
 
 const ItemListContainer = ({ titulo }) => {

@@ -1,10 +1,48 @@
-.item__img__container .item--img{
-    padding: 10px;
+.item__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 10px;
-    width: 200px;
-    height: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
 }
 
-.item__container, .item--title , .item--description , .item--price{
-    text-align: center;
-} 
+.item__img__container {
+    width: 100%;
+}
+
+.item--img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.item--title {
+    margin: 10px 0;
+}
+
+.item--description {
+    margin-bottom: 10px;
+}
+
+.item--price {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.item--counter__container {
+    margin-bottom: 10px;
+}
+
+.item--cart__contaiener button {
+    background-color: pink;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.item--cart__contaiener button:hover {
+   color: white;
+    
+}
